@@ -147,6 +147,7 @@ We will evaluate translation quality using the standard BLEU metric.
 - Use the system to translate some arbitrary text, for example from a Hindi news site or from a [Japanese Wikipedia](https://ja.wikipedia.org/wiki/メインページ) article.
   The input should be one sentence per line.
   The target language doesn't have to be English: many widely spoken languages are supported - just make sure to use the correct [2-character language identifier ](https://en.wikipedia.org/wiki/ISO_639-1) in the language tag at the start of the source sentence.
+  You can find a list of supported languages [here](langs.md).
   Note: don't expect high quality translation!
 
 To answer the following questions, see the [documentation](https://github.com/EdinburghNLP/nematus#nematustranslatepy--use-an-existing-model-to-translate-a-source-text) for ```translate.py```'s command line options.
