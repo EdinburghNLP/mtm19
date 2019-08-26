@@ -18,6 +18,7 @@
 | de | German |
 | dz | Dzongkha |
 | el | Greek |
+| en | English |
 | eo | Esperanto |
 | es | Spanish |
 | et | Estonian |
