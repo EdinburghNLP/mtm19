@@ -251,8 +251,8 @@ If you are using the Google Cloud VMs, then we will just run a few training iter
 
 - Adjust the training script to add the lexical model from system 9 (Table 5) of [Sennrich and Zhang (2019)](https://www.aclweb.org/anthology/P19-1021)).
 
-- Try adjusting some of the parameters to improve translation speed.
-  It's easy to make translation faster, but what do you think you can change without sacrificing (too much) translation quality?
+- Try adjusting some of the parameters to improve training speed (you can try this in a separate exp2 directory).
+  It's easy to make training faster, but what do you think you can change without sacrificing (too much) translation quality?
 
 - Download a pre-trained version of this model:
 
