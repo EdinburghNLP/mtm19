@@ -7,9 +7,9 @@
 
 Using XDebug profiler:
 
-- before ![before](https://www.dropbox.com/s/xd7fptnizs2n8zd/before.png?dl=1)
+- before ![before](https://i.imgur.com/oL9mKqY.png)
 
-- after ![after](https://www.dropbox.com/s/76038ab33z7gsrd/after.png?dl=1)
+- after ![after](https://i.imgur.com/620XYPD.png)
 
 ## Import test sets
 
