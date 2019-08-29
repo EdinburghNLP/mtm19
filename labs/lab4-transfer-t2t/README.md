@@ -190,6 +190,13 @@ The training is going to take several hours/days to train the model. The script 
 
 ## Evaluate child
 
+If you do not want to train the model, you can download its checkpoint trained only for 4000 steps here:
+
+```
+wget http://ufallab.ms.mff.cuni.cz/~kocmanek/mtm19/child.tar.gz
+tar -xvzf child.tar.gz
+```
+
 After the training, the final model can be tested by the following command:
 
 ```
