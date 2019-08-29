@@ -31,7 +31,7 @@ Virtual machine:
 First, we need to prepare virtual environment:
 
 ```
-virtualenv --python=/usr/bin/python env-gpu
+virtualenv --python=/usr/bin/python3 env-gpu
 source env-gpu/bin/activate
 pip install tensor2tensor[tensorflow_gpu] sacrebleu
 ```
@@ -133,6 +133,7 @@ We evaluate the translation by sacreBLEU. This tool automatically downloads WMT 
 cat output.translation | sacrebleu -t wmt18 -l en-cs --score-only
 ```
 
+You should get a score of 22.1 BLEU.
 
 ## Prepare data for child model (English-to-Estonian)
 
@@ -150,7 +151,7 @@ Furthermore, provide the correct name of vocabulary we generated earlier on row 
 The last step is to register the problem for tensor2tensor by adding the following line into `codebase/__init__.py`.
 
 ```
-import . from child
+from . import child
 ```
 
 We preprocess the corpus by the following command:
