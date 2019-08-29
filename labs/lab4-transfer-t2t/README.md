@@ -211,7 +211,7 @@ The BLEU can be computed by:
 cat output.translation | sacrebleu -t wmt18 -l en-et --score-only
 ```
 
-After only 4000 steps (several hours of training) we obtain a score of 12.5 BLEU, and after 30 000 steps, you should get around a score of 16.4 BLEU.
+After only 4000 steps (several hours of training) we obtain a score of 13.5 BLEU, and after 30 000 steps, you should get around a score of 16.4 BLEU.
 
 To summarize, we trained English-to-Estonian neural machine translation with only 50k training sentences. If trained from scratch without the transfer learning and hyperparameter tuning, we would obtain roughly 5 BLEU points. 
 
